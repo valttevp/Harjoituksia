@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T7</title>
+</head>
+<body>
+<script>
+    let saldo, prosentti, korko, voitto;
+    saldo = parseInt(prompt('Anna tilin saldo'));
+    prosentti = parseInt(prompt('Anna vuotuinen korkoprosentti'));
+    korko = saldo*prosentti/100+saldo;
+    voitto = korko-saldo;
+    alert('Olet saanut korkoa '+voitto.toFixed(2)+ ' Euroa jolloin tilisi saldo on '+korko.toFixed(2)+ 'Euroa!');
+</script>
+</body>
+</html>

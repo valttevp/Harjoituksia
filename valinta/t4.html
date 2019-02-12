@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T4</title>
+</head>
+<body>
+<script>
+    let raha, lippu, loput;
+    raha = parseInt(prompt('Anna rahamäärä'));
+    lippu = parseInt(prompt('Anna bussilipun hinta'));
+    if (raha>lippu){
+        loput = raha-lippu;
+        alert('Rahaa jäljellä '+loput+ 'Euroa.' +'\n'+ 'Hyvää matkaa!');
+    }
+    else if (raha<lippu){
+        alert('Rahasi eivät riitä, rahaa jäljellä '+raha+ 'Euroa.');
+    }
+</script>
+</body>
+</html>

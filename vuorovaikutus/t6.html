@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>T6</title>
+</head>
+<body>
+<script>
+    let luku1, luku2, luku3, kilo, gramma;
+    alert('Anna massa leivisköinä, nauloina sekä luoteina');
+    luku1= parseInt(prompt('Monta leiviskää? '));
+    luku2 = parseInt(prompt('Monta naulaa? '));
+    luku3 = parseInt(prompt('Monta luotia? '));
+    let leivi = luku1*8.512;
+    let naula = luku2*0.4256;
+    let luoti = luku3*0.0133;
+    kilo =leivi+naula+luoti;
+    gramma =kilo*1000-(Math.floor(kilo)*1000);
+    alert('Massa nykymittojen mukaan: '+Math.floor(kilo)+ 'kiloa sekä '+gramma.toFixed([2])+ 'grammaa');
+
+</script>
+</body>
+</html>
